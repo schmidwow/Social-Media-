@@ -1,0 +1,93 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9c9090;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+    padding: 20px; /* Sie hatten padding zweimal definiert, daher habe ich es einmal entfernt */
+    background-image: url('img/5.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#navigation {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Habe den Abstand verringert, um es etwas kompakter zu machen */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(223, 226, 232);
+    font-weight: bold;
+}
+
+#content {
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+    background-color: #fff;
+    width: 80%;
+    max-width: 1200px;
+}
+ 
+.dotted-frame  {
+    border: 20px dotted #090909;
+    padding: 60px;
+    width: 1000px;
+    height: 450px;
+    background-color:#9c9090;
+}
+
+
+
+
+h1 {
+    font-size: 60px;
+    color: #121212;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background: linear-gradient( 45deg,  #000000, #e31215);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.IMG {
+    float: right; /* Bild rechts ausrichten */
+    width: 6cm;
+    height: 8cm;
+    margin-left: 2px; /* Abstand zum Textinhalt */
+}
+
+.IMG img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Bildproportionen beibehalten und zuschneiden */
+}
+    
+
+
+

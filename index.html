@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+    <div id="navigation">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="darstellung1.html">Curriculum</a></li>
+                <li><a href="darstellung2.html">Class</a></li>
+                <li><a href="darstellung3.html">Exercises</a></li>
+            </ul>
+        </nav>
+    </div>
+   <link rel="stylesheet" 
+   href="styles.css"
+</head>
+   
+<body>
+    <h5><b><u>Portfolio of Josefine Schmid </u></b></h5>
+    
+    <h5><b><u>Social Media   </u></b></h5>
+    <h1><b><u>Einführung in das Gestalten von Online-Medien  </u></b></h1>
+    <h1><b><u>WiSe 2324 </u></b></h1>
+    <h1><b><u>(Alves da Silva)</u></b></h1>
+  <div class="dotted-frame "
+
+  
+             <h2><b> Content:</b></h2>
+        <h2>   On this website I show the material covered in our social Media seminar!</h2>   
+        <p1> <br> First I introduce myself! My name is Josefine Tiffany Schmid. I am 20 years old and I live in Munich.<br/>
+        I am a passionate traveler.Discovering new cultures and immersing yourself in their uniqueness fascinates me.<br> In addition to traveling, I enjoy painting and designing. As part of a seminar I had the challenge of designing this website, which I really enjoyed.<br/>Photography is another passion of mine, where I capture special moments while traveling. Below I show some of my pictures and talk about myself and this seminar "social media". <br/> 
+        </p1>
+        <h2>Below I show a few pictures from my trip to Indonesia in 2023!</h2>
+       
+            
+                <a href="https://www.google.com/maps/place/Indonesien/@-2.2684602,95.9326482,4z/data=!3m1!4b1!4m6!3m5!1s0x2c4c07d7496404b7:0xe37b4de71badf485!8m2!3d-0.789275!4d113.921327!16zL20vMDNyeW4?entry=ttu">Link zu Googlemaps</a>
+              
+            
+       
+        </div>
+        <p1> </p1>
+        <p1> </p1>
+        <p1> </p1>
+
+       <h1></h1>
+       <h1> Indonesia 2023!</h1>
+       
+            
+       <div class="image-container">
+        <div>
+            <img src="IMG/IMG_palmen.jpeg" alt="Palmen" onclick="openLightbox('IMG/IMG_palmen.jpeg', 'Palm trees on the beach in Bali')">
+            <p>Palm trees </p>
+        </div>
+        <div>
+            <img src="IMG/IMG_bali.jpeg" alt="Bali" onclick="openLightbox('IMG/IMG_bali.jpeg', 'Monkey in the Monkey Forest')">
+            <p> Monkey Forest</p>
+        </div>
+        <div>
+            <img src="IMG/IMG_d.jpeg" alt="Obst" onclick="openLightbox('IMG/IMG_d.jpeg', 'Market in Uluwatu')">
+            <p>Market in Uluwatu</p>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <div>
+            <img src="IMG/IMG_blau.jpeg" alt="Strand " onclick="openLightbox('IMG/IMG_blau.jpeg', 'Beach in Kuta')">
+            <p>Beach in Kuta</p>
+        </div>
+        <div>
+            <img src="IMG/IMG_strand.jpeg" alt="Hund" onclick="openLightbox('IMG/IMG_strand.jpeg', 'Dog at the beach')">
+            <p>Dog at the beach</p>
+        </div>
+        <div>
+            <img src="IMG/IMG_z.jpeg" alt="Ziegen" onclick="openLightbox('IMG/IMG_z.jpeg', 'Goats by the sea')">
+            <p>Goats by the sea</p>
+        </div>
+    </div>
+
+    <div class="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-image" src="" alt="">
+    </div>
+
+        <!-- JavaScript script to handle the lightbox functionality -->
+        <script>
+            function openLightbox(imageSrc, caption) {
+                // Set the source and display the lightbox
+                document.getElementById('lightbox-image').src = imageSrc;
+                document.querySelector('.lightbox').style.display = 'flex';
+            }
+    
+            function closeLightbox() {
+                // Hide the lightbox when clicked outside the image
+                document.querySelector('.lightbox').style.display = 'none';
+            }
+        </script>
+</body>
+</html>
+      
+       
+       
+
+
+
+       
+ 
+  
+  
+ 
+       
+
+          
+
+
